@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(./resources/images/main_img.jpg);
+    background-position: center center;
+    background-size: max(1800px, 110vw);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 75vh;
+
+
+
+}
+
+.main .box {
+    height: 75vh;
+    width: 100%;
+    background-color: black;
+    opacity: .60;
+    position: absolute;
+    top: 0;
+
+}
+
+nav {
+    height: 10vh;
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+    align-items: center;
+}
+
+.hero {
+    font-family: "Kanit", sans-serif;
+    ;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+
+
+}
+
+.hero span:nth-child(1) {
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 24px;
+}
+
+.hero span:nth-child(2) {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    padding: 0 24px;
+}
+
+.hero span:nth-child(3) {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    padding: 0 24px;
+}
+
+.partition {
+    margin-top: 32px;
+    height: 1.5vh;
+    width: 100%;
+    background-color: rgb(35, 35, 35);
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 27px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.076);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 6px 24px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.main input {
+    color: white;
+    font-size: 17px;
+    padding: 15px 73px 6px 9px;
+    border-radius: 4px;
+    background-color: rgb(35 35 35 / 36%);
+    border: 2px solid rgba(255, 255, 255, 0.598)
+}
+
+.hero-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.first {
+    display: flex;
+    color: white;
+    max-width: 70vw;
+    height: 70vh;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.first span:nth-child(1) {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.first span:nth-child(2) {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.first span:nth-child(3) {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.first .sec-img {
+    position: relative;
+
+    z-index: 10;
+}
+
+.sec-img img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.first video {
+    position: absolute;
+
+    top: 97px;
+    right: 15px;
+}
+
+.third .vid {
+    position: absolute;
+    top: 38px;
+    width: 18vw;
+    right: 119px;
+}
