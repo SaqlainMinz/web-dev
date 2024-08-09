@@ -12,5 +12,9 @@ var image2=document.querySelectorAll("img")[1].setAttribute("src",randomImage2)
 
 //winner
 if(randomNumber1>randomNumber2){
-    document.getElementsByClassName("p")
+    document.querySelector("h1").innerHTML="PLayer 1 win🚩"
+}else if(randomNumber1<randomNumber2){
+    document.querySelector("h1").innerHTML="PLayer 2 win🚩"
+}else if(randomNumber1===randomNumber2){
+    document.querySelector("h1").innerHTML="Draw"
 }
