@@ -1,0 +1,6 @@
+.invert {
+  filter: invert(1);
+}
+.h-size {
+  width: 24px;
+}
